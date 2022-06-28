@@ -58,3 +58,12 @@ header ul,
 .nav-right {
     margin-left: auto;
 }
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: slateblue
+}
