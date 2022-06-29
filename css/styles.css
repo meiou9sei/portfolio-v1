@@ -95,6 +95,12 @@ header ul,
     margin-left: auto;
 }
 
+.non-title-main {
+	max-width: 960px;
+	margin: auto;
+	padding: 96px;
+}
+
 /*********/
 /* FONTS */
 /*********/
