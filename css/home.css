@@ -25,6 +25,36 @@
 	align-items: center;
 }
 
+.non-title-main {
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
+}
+
+.non-title-main li {
+	list-style: square inside;
+}
+
+.about-me-mini {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-me-mini li {
+	margin-bottom: 8px;
+}
+
+h2 {
+	margin-bottom: 16px;
+}
+
+.title-description-container {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;	
+	margin: 16px 0;
+}
+
 /*********/
 /* FONTS */
 /*********/
