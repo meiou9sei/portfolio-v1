@@ -1,0 +1,74 @@
+/**************/
+/* CONTAINERS */
+/**************/
+
+.hero-container {
+	height: 80vh;
+	background-color: var(--bg);
+	display: flex;
+}
+
+.hero {
+	margin: auto;
+	top: -5vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 12px;
+}
+
+.heros-empty-space {
+	height: 10vh;
+	background-color: var(--bg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.non-title-main {
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
+}
+
+.non-title-main li {
+	list-style: square inside;
+}
+
+.about-me-mini {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-me-mini li {
+	margin-bottom: 8px;
+}
+
+h2 {
+	margin-bottom: 16px;
+}
+
+.title-description-container {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;	
+	margin: 16px 0;
+}
+
+/*********/
+/* FONTS */
+/*********/
+
+.hero {
+	font-size: 7vw;
+	color: var(--color);
+}
+
+.hero-subtext {
+	font-size: 2vw;
+	color: var(--colorShade);
+}
+
+.heros-empty-space {
+	color: var(--color2)
+}
