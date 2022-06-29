@@ -49,18 +49,73 @@ table {
 
 /* CSS RESET ^ */
 
+/**********/
+/* COLORS */
+/**********/
+
+:root {
+	--bg: #111111;
+	--bg2: #FAF9F6;
+	--color: #76e5fc;
+	--colorShade: #4BC0d9;
+	--color2: #9dACFF;
+	--color2Shade: #6cae75;
+}
+
 /**************/
 /* CONTAINERS */
 /**************/
 
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	position: sticky;
+	top: 0px;
+	background-color: var(--bg);
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 header ul,
-.nav-left,
-.nav-right {
+.nav-right,
+.nav-left {
     display: flex;
+	gap: 12px;
+	padding: 0 12px;
 }
 
 .nav-right {
     margin-left: auto;
+}
+
+.hero-container {
+	height: 80vh;
+	background-color: var(--bg);
+	display: flex;
+}
+
+.hero {
+	margin: auto;
+	top: -5vh;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.hero-subtext {
+	text-align: center;
+}
+
+.heros-empty-space {
+	height: 10vh;
+	background-color: var(--bg);
 }
 
 /*********/
@@ -68,19 +123,26 @@ header ul,
 /*********/
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: var(--bg2)
 }
 
 a {
 	text-decoration: none;
-	color: green;
+	color: var(--color2);
 }
 
 a:hover {
-	color: slateblue
+	color: var(--color2Shade);
 }
 
 h1 {
 	font-size: 7vw;
+	color: var(--color);
+}
+
+.hero-subtext {
+	font-size: 2vw;
+	color: var(--colorShade);
 }
 
 h2 {
