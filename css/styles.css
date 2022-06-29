@@ -112,16 +112,6 @@ a:hover {
 	color: var(--color2Shade);
 }
 
-h1 {
-	font-size: 7vw;
-	color: var(--color);
-}
-
-.hero-subtext {
-	font-size: 2vw;
-	color: var(--colorShade);
-}
-
 h2 {
 	font-size: 2rem;
 }

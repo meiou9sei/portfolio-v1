@@ -1,3 +1,7 @@
+/**************/
+/* CONTAINERS */
+/**************/
+
 .hero-container {
 	height: 80vh;
 	background-color: var(--bg);
@@ -16,4 +20,25 @@
 .heros-empty-space {
 	height: 10vh;
 	background-color: var(--bg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*********/
+/* FONTS */
+/*********/
+
+.hero {
+	font-size: 7vw;
+	color: var(--color);
+}
+
+.hero-subtext {
+	font-size: 2vw;
+	color: var(--colorShade);
+}
+
+.heros-empty-space {
+	color: var(--color2)
 }
