@@ -1,0 +1,19 @@
+.hero-container {
+	height: 80vh;
+	background-color: var(--bg);
+	display: flex;
+}
+
+.hero {
+	margin: auto;
+	top: -5vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 12px;
+}
+
+.heros-empty-space {
+	height: 10vh;
+	background-color: var(--bg);
+}

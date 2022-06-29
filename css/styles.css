@@ -95,29 +95,6 @@ header ul,
     margin-left: auto;
 }
 
-.hero-container {
-	height: 80vh;
-	background-color: var(--bg);
-	display: flex;
-}
-
-.hero {
-	margin: auto;
-	top: -5vh;
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-}
-
-.hero-subtext {
-	text-align: center;
-}
-
-.heros-empty-space {
-	height: 10vh;
-	background-color: var(--bg);
-}
-
 /*********/
 /* FONTS */
 /*********/
