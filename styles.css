@@ -49,6 +49,10 @@ table {
 
 /* CSS RESET ^ */
 
+/**************/
+/* CONTAINERS */
+/**************/
+
 header ul,
 .nav-left,
 .nav-right {
@@ -59,6 +63,13 @@ header ul,
     margin-left: auto;
 }
 
+/*********/
+/* FONTS */
+/*********/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 a {
 	text-decoration: none;
 	color: green;
@@ -66,4 +77,16 @@ a {
 
 a:hover {
 	color: slateblue
+}
+
+h1 {
+	font-size: 7vw;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
