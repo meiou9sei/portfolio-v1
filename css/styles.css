@@ -60,6 +60,8 @@ table {
 	--colorShade: #4BC0d9;
 	--color2: #9dACFF;
 	--color2Shade: #6cae75;
+	--color2Dark: #1a35cf;
+	--color2ShadeDark: #0d801c;
 }
 
 /**************/
@@ -121,8 +123,19 @@ a {
 	color: var(--color2);
 }
 
+.non-hero-main a,
+.subpage-main a {
+	color: var(--color2Dark);
+}
+
 a:hover {
 	color: var(--color2Shade);
+}
+
+
+.non-hero-main a:hover,
+.subpage-main a:hover {
+	color: var(--color2ShadeDark);
 }
 
 h2 {
