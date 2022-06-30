@@ -101,6 +101,12 @@ header ul,
 	padding: 112px;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 24px;
+}
+
 /*********/
 /* FONTS */
 /*********/
@@ -124,4 +130,8 @@ h2 {
 
 h3 {
 	font-size: 1.5rem;
+}
+
+footer p {
+	color: var(--color2Shade);
 }
