@@ -59,13 +59,13 @@ h2 {
 /* FONTS */
 /*********/
 
-.hero {
-	font-size: 7vw;
+.hero h1 {
+	font-size: max(7vw, 48px);
 	color: var(--color);
 }
 
 .hero-subtext {
-	font-size: 2vw;
+	font-size: max(2vw, 16px);
 	color: var(--colorShade);
 }
 
