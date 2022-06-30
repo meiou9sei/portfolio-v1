@@ -21,8 +21,14 @@
 	height: 10vh;
 	background-color: var(--bg);
 	display: flex;
-	justify-content: center;
 	align-items: center;
+}
+
+#about-nav-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* I really want this but might not be best */
+	gap: 4px;
 }
 
 .non-title-main {
