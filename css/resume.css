@@ -4,6 +4,7 @@
 
 .resume {
     height: 930px;
+    max-height: 100vh;
 }
 
 .resume p {
