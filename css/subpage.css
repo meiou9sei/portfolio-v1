@@ -12,6 +12,10 @@ li {
     margin-bottom: 8px;
 }
 
+header li {
+    margin-bottom: 0px;
+}
+
 /*********/
 /* FONTS */
 /*********/

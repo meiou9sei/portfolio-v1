@@ -101,7 +101,7 @@ header ul,
 .non-title-main {
 	max-width: 960px;
 	margin: auto;
-	padding: 112px;
+	padding: 128px;
 }
 
 footer {
@@ -163,4 +163,12 @@ footer p {
 		gap: 4px;
 	}
 
+	.nav-right {
+		font-size: 0.8rem;
+	}
+
+	.subpage-main,
+	.non-title-main {
+		padding: 24px;
+	}
 }
