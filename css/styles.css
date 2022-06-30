@@ -95,6 +95,7 @@ header ul,
     margin-left: auto;
 }
 
+.subpage-main,
 .non-title-main {
 	max-width: 960px;
 	margin: auto;
