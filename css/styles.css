@@ -151,8 +151,12 @@ h3 {
 	font-size: 1.5rem;
 }
 
-footer p {
-	color: var(--color2Shade);
+footer a {
+	color: var(--color2ShadeDark);
+}
+
+footer a:hover {
+	color: var(--color2Dark);
 }
 
 /*****************/
