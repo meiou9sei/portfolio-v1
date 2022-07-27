@@ -1,3 +1,6 @@
+live at https://camerona.vvampa.to/ 
+(unless I have an updated portfolio version, in which case this readme is outdated)
+
 portfolio v1
 
 goals:
