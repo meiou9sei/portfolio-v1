@@ -1,6 +1,6 @@
 live at https://meiou9sei.github.io/portfolio-v1/
 
-(for the latest portfolio version, check out https://camerona.vvampa.to)
+!!!Information on version 1 is outdated. For the latest portfolio version, check out https://camerona.vvampa.to!!!
 
 portfolio v1
 
